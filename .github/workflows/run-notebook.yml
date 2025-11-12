@@ -2,7 +2,7 @@ name: Run Notebook Daily
 
 on:
   schedule:
-    - cron: "0 12 * * *"  # roda todo dia às 12h UTC (~9h no Brasil)
+    - cron: "0 20 * * *"  # roda todo dia às 12h UTC (~9h no Brasil)
   workflow_dispatch:  # permite rodar manualmente também
 
 jobs:
